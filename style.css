@@ -7,7 +7,7 @@ body {
     height: 100vh;
 }
 
-.outer-border {
+#outer-border {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +20,7 @@ body {
     position: relative;
 }
 
-.display-result {
+#display-result {
     background-color: #ffffff;
     border-color: #4a3267;
     display: flex;
@@ -33,12 +33,12 @@ body {
     font-size: 25px;
 }
 
-.all-buttons {
+#all-buttons {
     display: grid;
     grid-template-columns: repeat(4, auto);
 }
 
-.two-buttons {
+#two-buttons {
     text-align: center;
     display: flex;
     margin-bottom: 10px;
@@ -47,12 +47,12 @@ body {
 
 }
 
-.clear {
+#clear {
     background-color: rgb(220, 124, 90);
     border-radius: 45%;
 }
 
-.delete {
+#delete {
     background-color: red;
     border-radius: 45%;
 }
