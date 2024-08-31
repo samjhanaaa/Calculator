@@ -10,8 +10,8 @@
 <body>
    <div id="outer-border">
     <div id="two-buttons">
-    <button id="clear">Clear</button>
-    <button id="delete">Delete</button>
+    <button id="clear" onclick="clearDisplay()">Clear</button>
+    <button id="delete" onclick="deleteLast()">Delete</button>
     </div>
    <div id="display-result"> </div>
    <div id="all-buttons">
@@ -33,7 +33,7 @@
     <button id="fullstop" onclick="displayValue('.')">.</button>
     <button id="zero" onclick="displayValue(0)">0</button>
     <button id="division" onclick="displayValue('/')">/</button>
-    <button id="isequalto" onclick="displayValue('=')">=</button>
+    <button id="isequalto" onclick="findAnswer()">=</button>
    </div>
 
    </div>
